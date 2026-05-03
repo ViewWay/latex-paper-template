@@ -218,3 +218,15 @@ A: 检查图片路径是否正确，支持格式：PDF, PNG, JPG, EPS。
 ## 许可证
 
 MIT License
+
+
+---
+
+## 🤖 GitHub Actions 自动编译
+
+本仓库配置了 GitHub Actions，推送代码到 main 分支时会自动：
+1. 编译 LaTeX 文档
+2. 生成 PDF 文件
+3. 发布到 GitHub Releases
+
+**最新 PDF**: 从 [Releases](../../releases) 下载
